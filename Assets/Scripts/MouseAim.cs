@@ -38,10 +38,8 @@ public class MouseAim : MonoBehaviour {
 		}
 	}
 	void Update () {
-		if(Mathf.Abs(Input.GetAxis("Mouse X")) > EPSILON || Mathf.Abs(Input.GetAxis("Mouse Y")) > EPSILON){
-			UpdateReticlePosition(GetMousePosition());
-			CheckForCollision();
-		}
+		UpdateReticlePosition(GetMousePosition());
+		CheckForCollision();
 	}
 	Vector3 GetMousePosition(){
 		Vector3 retVal = new Vector3();
