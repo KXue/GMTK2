@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 65444528932944418}
   - component: {fileID: 114090185323229738}
   - component: {fileID: 54049110710069426}
+  - component: {fileID: 114696019092046056}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -82,3 +83,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_walkForce: 15
   m_maxSpeed: 5
+--- !u!114 &114696019092046056
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1306588849532330}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1df3ceccbd6ed444ca4bae1caead6f29, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_minReticleDistance: 0.7
+  m_maxReticleDistance: 3
+  m_blockingLayers:
+  - serializedVersion: 2
+    m_Bits: 512
+  m_canAim: 0
